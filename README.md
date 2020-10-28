@@ -16,44 +16,8 @@ Disallow: /*/sharerating
 Disallow: /flash/rats.swf
 
 pip install python-whois
+
 import whois 
+
 print(whois.whois('https://www.filmaffinity.com/'))
 
-{
-  "domain_name": [
-    "FILMAFFINITY.COM",
-    "filmaffinity.com"
-  ],
-  "registrar": "Arsys Internet, S.L. dba NICLINE.COM",
-  "whois_server": "whois.nicline.com",
-  "referral_url": null,
-  "updated_date": [
-    "2020-06-21 07:21:16",
-    "2015-01-13 15:24:07"
-  ],
-  "creation_date": "2001-06-20 14:23:27",
-  "expiration_date": "2021-06-20 14:23:27",
-  "name_servers": [
-    "NS1.FILMAFFINITY.COM",
-    "NS2.FILMAFFINITY.COM"
-  ],
-  "status": [
-    "ok https://icann.org/epp#ok",
-    "ok https://www.icann.org/epp#ok"
-  ],
-  "emails": [
-    "email@nicline.com",
-    "whoiscontact@domainconnection.info"
-  ],
-  "dnssec": [
-    "unsigned",
-    "Unsigned"
-  ],
-  "name": "REDACTED FOR PRIVACY",
-  "org": null,
-  "address": "REDACTED FOR PRIVACY",
-  "city": "REDACTED FOR PRIVACY",
-  "state": "Madrid",
-  "zipcode": "REDACTED FOR PRIVACY",
-  "country": "ES"
-}
